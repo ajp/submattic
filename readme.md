@@ -14,7 +14,7 @@ Submattic
 1. Clone the repo to your dev server.
 2. Run `npm install`
 3. Add and edit your groups in /groups/<name of your group>.yaml
-4. Deploy to [Heroku](http://heroku.com), [Nodejitsu](http://nodejitsu.com), or your Node hosting service of choice.
+4. Deploy to [Heroku](http://heroku.com) or your Node hosting service of choice.
 5. Point Mandrill's Inbound Email (*) wildcard domain route to the public root URL (e.g. http://example-url.com). You can choose to specially add each mailbox route explicity to avoid having exceess email (read: SPAM) hit your server unnecessarily. ![Mandrill Settings](http://f.cl.ly/items/3Z1G2U3e1J1a1I370l1B/mandrill-screenshot.png)
 6. Edit the config.yaml file and add your Mandrill API Key.
 
@@ -55,6 +55,8 @@ We'll assume you have Submattic running locally already.
 7. Visit the app to make sure Submattic is running: `heroku open`.
 
 ### Running on [Nodejitsu](http://nodejitsu.com)
+
+Nodejitsu has been aquired by GoDaddy and is no longer accepting new customers. The following instructions have been kept for posterity.
 
 1. [Create a Nodejitsu account](https://www.nodejitsu.com/signup)
 2. Install `jitsu`, the command line interface for Nodejitsu's platform: `npm install jitsu -g`
